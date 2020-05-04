@@ -40,5 +40,14 @@ pytest
 ```
 You should see that all the tests are failing. This is good! We’ll be fixing these tests once we jump into the build step. Every time you want to check your work locally you can type that command, and it will report the status of every task in the project.
 
+## Running individual module tests
+
+You can run specific tests like:  
+```
+pytest -k module1
+pytest -k module2
+...
+```
+
 ## Previewing Your Work
 You can preview your work by running the command `python ssg.py` after the first module.
